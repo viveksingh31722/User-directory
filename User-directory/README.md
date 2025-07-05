@@ -32,25 +32,25 @@ A responsive Single Page Application (SPA) built with React and Vite that displa
 
 ## 🚀 Features
 
-- **User Grid View**: Fetches and displays user data in a beautiful grid tile layout on the home page.
-- **Search Functionality**: Search users by **name**, **email**, or **country** in real-time.
-- **Theme Toggle**: Switch between **Light** and **Dark** themes using the toggle button at the top-right corner.
-- **Global State Management**: Uses React's **Context API** to manage and share state across the entire application without prop drilling.
-- **SPA Navigation**: Built with **react-router-dom** to provide seamless single-page navigation.
+- User Grid View: Fetches and displays user data in a beautiful grid tile layout on the home page.
+- Search Functionality: Search users by name, email, or country in real-time.
+- Theme Toggle: Switch between Light and Dark themes using the toggle button at the top-right corner.
+- Global State Management: Uses React's Context API to manage and share state across the entire application without prop drilling.
+- SPA Navigation: Built with react-router-dom to provide seamless single-page navigation.
 
 ## 🔧 Tech Stack
 
-- **React** (with Hooks)
-- **Vite** (for fast bundling and dev experience)
-- **React Router DOM** (SPA routing)
-- **Context API** (for state management)
-- **CSS / TailwindCSS / Styled-components** (mention what you're using for styling)
+- React (with Hooks)
+- Vite (for fast bundling and dev experience)
+- React Router DOM (SPA routing)
+- Context API (for state management)
+- CSS / TailwindCSS / Styled-components (mention what you're using for styling)
 
 ## 🧠 Architecture Overview
 
-- **Context Provider**: Wraps the application to provide global access to user data and theme state.
-- **Routes**: Defined using `react-router-dom` for component-based navigation.
-- **Components**:
+- Context Provider: Wraps the application to provide global access to user data and theme state.
+- Routes*: Defined using `react-router-dom` for component-based navigation.
+- Components:
   - `UserGrid`: Displays users in tile view.
   - `SearchBar`: Handles filtering based on input.
   - `ThemeToggle`: Allows switching between themes.
