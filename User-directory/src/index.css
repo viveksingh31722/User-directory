@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+
+
+:root {
+  --body_background: #ffffff;
+  --body_color: #000000;
+  --link_color: navy;
+}
+
+[data-theme="dark"] {
+  --body_background: #111827;
+  --body_color: #f0f0f0;
+  --link_color: cyan;
+}
