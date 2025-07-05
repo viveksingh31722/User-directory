@@ -21,3 +21,6 @@ function App() {
 }
 
 export default App;
+
+// In this i have used all the routes, to achieve the SPA(Single Page Application), this help to reduce reloading of whole pages.
+//Also added all the necessary components inside this App.jsx component.

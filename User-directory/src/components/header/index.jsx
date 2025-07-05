@@ -2,6 +2,11 @@ import React, { useContext } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import { GlobalContext } from "../../context";
 
+
+// This is navbar, having the search input field and different navLinks like home and search.
+// Here we are setting the value os search params state and finding the data in context file, using the function handleSubmit.
+// Handle submit make the api call and check for the requested data and provide the data result, which can be used further
+
 export default function Navbar() {
   const { searchParam, setSearchParam, handleSubmit } =
     useContext(GlobalContext);

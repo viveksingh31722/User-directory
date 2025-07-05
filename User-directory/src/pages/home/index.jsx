@@ -44,3 +44,6 @@ export default function Home() {
     </div>
   );
 }
+
+// This is the home page, where im getting the data through api call, and showing them by passing the values in 'profileItem' component.
+// This grid form of tiles, having the users data in it

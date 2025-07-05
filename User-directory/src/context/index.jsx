@@ -67,3 +67,5 @@ export default function GlobalState({ children }) {
     </GlobalContext.Provider>
   );
 }
+
+// Ths is the context page, it is used the manage the state by passing the values to different component and make the data accessible to all the component

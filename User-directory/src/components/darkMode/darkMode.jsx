@@ -28,3 +28,7 @@ export default function DarkMode() {
     </div>
   );
 }
+
+
+// This is functionality to achieve the dark/light them toggler property.
+// This is a specific component for achieve the goal of theme toggler.

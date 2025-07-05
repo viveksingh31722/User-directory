@@ -27,3 +27,6 @@ export default function Home() {
     </div>
   );
 }
+
+// This basic search page component where we have been getting the list of profile, we are storing the profile list in state (profileList) and using it here, so this data is being passed as props to the "tile component" --> "ProfileItem" component.
+// This shows the values in tile which matches with the "search parameter".

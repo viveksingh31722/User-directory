@@ -25,3 +25,6 @@ export default function ProfileItem({ item }) {
     </div>
   );
 }
+
+
+// These are the grid tiles, which having the data like profile, name, email country etc, this is being imported at search page as well as at home page, so that we can show the grids at home page.
