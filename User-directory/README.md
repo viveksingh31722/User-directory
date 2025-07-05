@@ -1,7 +1,6 @@
 from pathlib import Path
 
-# Content for the README.md file
-readme_content = """
+# USER DIRECTORY APP
 # ⚡ React + Vite Starter Template
 
 This template provides a minimal setup to get React working in Vite with HMR (Hot Module Replacement) and some basic ESLint rules.
