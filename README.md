@@ -68,3 +68,6 @@ src/
 ├── App.jsx
 ├── main.jsx
 └── index.css
+
+
+Note:As we are fetching data from a random api, so something if search the person by name it show no data as it won't be able to fetch it, it take time, so in that case to check the functionality you can search the users by country name for the bunch of data.
